@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments.ControlStructures.Iteration;
 /*
 Implement a program to display the below pattern.
     *****

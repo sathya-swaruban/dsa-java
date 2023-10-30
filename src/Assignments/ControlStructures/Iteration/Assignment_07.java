@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments.ControlStructures.Iteration;
 /*
 Implement a program to find and display the least common multiple (LCM) of two whole numbers.
 
