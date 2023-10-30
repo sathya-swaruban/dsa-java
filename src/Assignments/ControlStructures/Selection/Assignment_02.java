@@ -13,7 +13,7 @@ Example-01:
     Input:  a = 1, b = 4, c = 4
     Output: The root is -2.0
 
-Example-01:
+Example-02:
     Input:  a = 1, b = 4, c = 6
     Output: The equation has no real root
  */
