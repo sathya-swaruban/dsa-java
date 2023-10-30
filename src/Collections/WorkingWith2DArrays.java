@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.Arrays;
 
-public class TwoDArray {
+public class WorkingWith2DArrays {
     public static void main(String[] args) {
         char[][] board = new char[3][3];
 

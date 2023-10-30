@@ -2,10 +2,10 @@ package Collections;
 
 import java.util.Arrays;
 
-public class Array {
+public class WorkingWithArrays {
     public static void main(String[] args) {
         /*
-         Declaration and Initialization of an Array.
+         Declaration and Initialization of an WorkingWithArrays.
          */
         String[] colors = new String[5];                // Declaration
         colors[0] = "Black";                            // Initialization
@@ -15,6 +15,8 @@ public class Array {
         colors[4] = "Green";
 
         int[] numbers = {1, 2, 3, 4, 5};                // Declaration + Initialization
+
+        System.out.println(colors.length);              // .length (gets the size of the array)
 
         /*
          Accessing the array elements using various methods.
