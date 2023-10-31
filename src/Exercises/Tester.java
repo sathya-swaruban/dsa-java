@@ -16,6 +16,11 @@ public class Tester {
         food.foodType = "Bread";
         food.quantityAvailable = 47;
         food.unitPrice = 404.5;
-        System.out.println();
+        System.out.printf("Food Name: %s%nCuisine: %s%nFood Type: %s%nQuantity: %s%nUnit Price: %s",
+                food.foodName,
+                food.cuisine,
+                food.foodType,
+                food.quantityAvailable,
+                food.unitPrice);
     }
 }
