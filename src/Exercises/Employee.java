@@ -1,7 +1,5 @@
 package Exercises;
 
-import java.util.*;
-
 class Employee {
     private String employeeId;
     private String employeeName;
@@ -49,9 +47,6 @@ class Employee {
         }
         this.salary += bonus;
     }
-}
-
-class Tester3 {
 
     public static void main(String[] args) {
         Employee employee = new Employee();
@@ -59,13 +54,11 @@ class Tester3 {
         employee.setEmployeeName("Steve");
         employee.setSalary(650);
         employee.setJobLevel(4);
-
         employee.calculateSalary();
-
         System.out.println("Employee Details");
         System.out.println("Employee Id: " + employee.getEmployeeId());
         System.out.println("Employee Name: " + employee.getEmployeeName());
         System.out.println("Salary: " + employee.getSalary());
-
+        System.out.println("Salary: " + employee.getJobLevel());
     }
 }

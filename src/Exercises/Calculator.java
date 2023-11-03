@@ -19,9 +19,7 @@ class Calculator {
         double average = (double) (number1 + number2 + number3) / 3.0;
         return Math.round(average * 100.0) / 100.0;
     }
-}
 
-class Tester2 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         calculator.num = 6547;
