@@ -1,9 +1,11 @@
 package Exercises;
 
 class Employee {
+
     private String employeeId;
     private String employeeName;
     private int salary;
+    private int bonus;
     private int jobLevel;
 
     public String getEmployeeId() {
@@ -30,6 +32,14 @@ class Employee {
         this.salary = salary;
     }
 
+    public int getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(int bonus) {
+        this.bonus = bonus;
+    }
+
     public int getJobLevel() {
         return jobLevel;
     }
@@ -39,13 +49,12 @@ class Employee {
     }
 
     public void calculateSalary() {
-        int bonus;
         if (this.jobLevel >= 4) {
-            bonus = 100;
+            this.setBonus(100);
         } else {
-            bonus = 50;
+            this.setBonus(50);
         }
-        this.salary += bonus;
+        this.salary += this.getBonus();
     }
 
     public static void main(String[] args) {
@@ -59,6 +68,6 @@ class Employee {
         System.out.println("Employee Id: " + employee.getEmployeeId());
         System.out.println("Employee Name: " + employee.getEmployeeName());
         System.out.println("Salary: " + employee.getSalary());
-        System.out.println("Salary: " + employee.getJobLevel());
+        System.out.println("Job Level: " + employee.getJobLevel());
     }
 }
